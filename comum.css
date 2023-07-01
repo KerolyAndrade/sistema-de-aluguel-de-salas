@@ -1,0 +1,200 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #339933;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #339933;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.content {
+    max-width: 800px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.salas-disponiveis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.salas-disponiveis .sala {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.salas-disponiveis .sala:hover {
+    background-color: #f2f2f2;
+}
+
+.salas-disponiveis .sala h3 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.salas-disponiveis .sala p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+}
+
+.salas-disponiveis .sala input[type="submit"] {
+    background-color: #339933;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.salas-disponiveis .sala input[type="submit"]:hover {
+    background-color: #238c23;
+}
+
+.salas-navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-nav {
+    background-color: #339933;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-nav:hover {
+    background-color: #238c23;
+}
+
+.mensagem {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mensagem.success {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.mensagem.error {
+    background-color: #FF0000;
+    color: #ffffff;
+}
+
+.btn-encerrar,
+.btn-ocorrencia {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.btn-encerrar {
+    background-color: #ff0000; /* Cor de fundo do botão Encerrar */
+    color: #ffffff; /* Cor do texto do botão Encerrar */
+}
+
+.btn-ocorrencia {
+    background-color: #0066ff; /* Cor de fundo do botão Abrir Ocorrência */
+    color: #ffffff; /* Cor do texto do botão Abrir Ocorrência */
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
